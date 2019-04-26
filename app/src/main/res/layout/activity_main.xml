@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5dc"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/restu"
+        android:id="@+id/rest"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rest"
+        android:layout_marginTop="5dp"
+        android:background="#d40000"
+        android:fontFamily="monospace"
+        android:text="  Food Factory Restaurant"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/food"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"
+        android:background=" #beff33 "
+        android:fontFamily="monospace"
+        android:text="        AVALIABLE AT    "
+
+        android:padding="5dp"
+        android:textColor="#a40000"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:id="@+id/add"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add"
+        android:layout_marginLeft="2dp"
+        android:background=" #beff33 "
+        android:fontFamily="monospace"
+        android:text=" 122 Amir Street Moharam Beek"
+        android:padding="5dp"
+        android:textColor="#a40000"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:id="@+id/addd"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addd"
+        android:layout_marginLeft="2dp"
+        android:paddingRight="10dp"
+        android:background=" #beff33 "
+        android:fontFamily="monospace"
+        android:text="       Timing:9AM TO 1AM"
+        android:padding="5dp"
+        android:textColor="#a40000"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:id="@+id/adddd"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d40000"
+        android:fontFamily="monospace"
+        android:text=" +201287575758"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@+id/adddd"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:textStyle="bold"
+        android:id="@+id/foodd"/>
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:src="@drawable/tee"
+        android:layout_below="@+id/adddd"
+        android:background=" #beff33 "
+        android:layout_marginTop="3dp"
+        android:id="@+id/p2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/add"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/add"
+        android:fontFamily="monospace"
+        android:text="WEBSITE"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:id="@+id/web"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodd"
+        android:fontFamily="monospace"
+        android:text=" MAIL:"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="35dp"
+        android:textStyle="bold"
+        android:id="@+id/fodd"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fodd"
+        android:fontFamily="monospace"
+        android:text="foodfactory@Restaurant.com"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/foodd"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:id="@+id/fooodd"/>
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:src="@drawable/index1"
+        android:layout_below="@+id/p2"
+        android:layout_marginTop="3dp"
+        android:id="@+id/p3"/>
+
+    <TextView
+        android:id="@+id/textt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/web"
+        android:fontFamily="monospace"
+        android:text="www.FoodFactory.com"
+        android:textSize="9sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/p3"
+        android:fontFamily="monospace"
+        android:text="ABOUT US"
+        android:background=" #787a74"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:paddingRight="50dp"
+        android:layout_below="@+id/text"
+        android:fontFamily="monospace"
+        android:text="A mix between authentic American and italian cuisine that will make you coming back for more"
+        android:textSize="18sp"
+        android:background=" #787a74"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
